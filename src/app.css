@@ -6,20 +6,19 @@ body{
     font-size: large;
 }
 .father{
+    padding-top: 20px;
     display: flex;
     justify-content: center;    
     gap: 5px;
-    bottom: 'mui-btn mui-btn--primary';  
+     
 }
-h1{
-    background-color: rgb(32, 32, 32);
-    color: #dddddd;
-    padding: 8px;
-    margin-top: 0;
-}
-
 h4{    
     color: #030303;   
+}
+.mui--appbar{
+    background-color: #030303;
+    border: none;
+   
 }
 input{
     border-radius: 3px;

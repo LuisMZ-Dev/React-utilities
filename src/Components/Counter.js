@@ -1,8 +1,12 @@
-import { useCounter } from '../Hooks/useCounter/useCounter'
+import { useState } from "react";
 
-export const ViewHookCounter = () => {
+export const Counter = () => {
 
-  const {counter, decrement, increment, reset, } = useCounter(0)
+  const [counter, setCounter] = useState(0); // Hook de react useState
+    const reset = () => setCounter(0);
+    const increment = () => setCounter( counter + 1 );    
+    const decrement = () => {if (counter > 0) setCounter( counter -1 )}
+
 
   return (
     <>
