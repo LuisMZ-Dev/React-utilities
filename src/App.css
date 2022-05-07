@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #dddddd;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.father{
+    display: flex;
+    justify-content: center;    
+    gap: 5px;
+    bottom: 'mui-btn mui-btn--primary';  
+}
+h1{
+    background-color: rgb(32, 32, 32);
+    color: #dddddd;
+    padding: 8px;
+    margin-top: 0;
+}
+
+h4{    
+    color: #030303;   
+}
+input{
+    border-radius: 3px;
+}
+
+
+.CapInput{
+    background-color: white;
+    box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);  
+    width: 200px;   
+    border-radius: 3px;        
+    text-align: center;
+    gap: 5px;
+    outline: none;
+    
+}
+
+.fetch{
+    background-color: white;
+    box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;   
+    text-align: center;
+    gap: 5px;
+
+}
+.fetch img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+      
+  }
+
+.callHook{
+    background-color: white;
+    box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
+    width: 200px; 
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    gap: 5px;
+    
+}
+.local{
+    background-color: white;
+    box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
+    width: 200px;     
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    gap: 5px;
+    
+    
+}
+
+
+.darkfather{
+    background-color: white;
+    box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
+    border: 2px white;
+    width: 200px;            
+    border-radius: 3px;    
+    text-align: center;
+    
+    
+}
+
+.dark{
+    background-color: white;
+    box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
+    color: white;
+    border-radius: 3px ;
+    background-color: rgb(32, 32, 32);   
+    text-align: center;
+    
+    
+}
