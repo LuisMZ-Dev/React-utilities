@@ -7,13 +7,16 @@ export const AppBar = () => {
 
   return (
    <section className="navigation">
-        <div className="nav-container">
-            <div className="brand">
-                <Link to="/">basic</Link>
+        <div className="nav-logo">
+            <div className="title-logo">
+                <Link to="/">Home</Link>
             </div>
-        <nav >
-            <div className="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-                <ul className="nav-list">
+        </div>
+        <nav className='nav-list' >            
+                <ul>
+                    <li>
+                        <Link to="/basic">Basic</Link>
+                    </li>
                     <li>
                         <Link to="/tables">Tables</Link>
                     </li>
@@ -25,7 +28,8 @@ export const AppBar = () => {
                     </li>             
                 </ul>
         </nav>
-        </div>
+
+  
     </section>
   
   )

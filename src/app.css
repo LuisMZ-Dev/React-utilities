@@ -1,47 +1,74 @@
-body{
-    padding: 0;
-    margin: 0;
-    background-color: #dddddd;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+.home{
+   text-align: ;
+}
+.h1tile{
+    position: fixed;
+    left: 40%;
+    top: 35%;
+    z-index: 2;
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(19, 19, 19);
+  
+}
+
+.image img{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 .father{
-    padding-top: 20px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;    
     gap: 5px;
-     
+    bottom: 'mui-btn mui-btn--primary';  
 }
+
 h4{    
     color: #030303;   
-}
-.mui--appbar{
-    background-color: #030303;
-    border: none;
-   
 }
 input{
     border-radius: 3px;
 }
-
-
 .CapInput{
     background-color: white;
     box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);  
     width: 200px;   
-    border-radius: 3px;        
+    border-radius: 5px;        
     text-align: center;
     gap: 5px;
     outline: none;
     
 }
-
 .fetch{
     background-color: white;
     box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
     width: 200px;
     padding: 5px;
-    border-radius: 3px;   
+    border-radius: 5px;   
     text-align: center;
     gap: 5px;
 
@@ -52,12 +79,11 @@ input{
     object-fit: cover;
       
   }
-
 .callHook{
     background-color: white;
     box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
     width: 200px; 
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 5px;
     text-align: center;
     gap: 5px;
@@ -67,33 +93,27 @@ input{
     background-color: white;
     box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
     width: 200px;     
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 5px;
     text-align: center;
     gap: 5px;
     
     
 }
-
-
 .darkfather{
     background-color: white;
     box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
     border: 2px white;
     width: 200px;            
-    border-radius: 3px;    
+    border-radius: 5px;    
     text-align: center;
-    
-    
 }
 
 .dark{
     background-color: white;
     box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
     color: white;
-    border-radius: 3px ;
+    border-radius: 5px ;
     background-color: rgb(32, 32, 32);   
     text-align: center;
-    
-    
 }
