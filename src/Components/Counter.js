@@ -1,26 +1,35 @@
-import { useState } from "react";
+import { useCounter } from "../useHooks/useCounter"
 
 export const Counter = () => {
 
-  const [counter, setCounter] = useState(0); // Hook de react useState
-    const reset = () => setCounter(0);
-    const increment = () => setCounter( counter + 1 );    
-    const decrement = () => {if (counter > 0) setCounter( counter -1 )}
+  const counter1 = useCounter(0)
+  const counter2 = useCounter(0)
 
+ 
 
   return (
     <>
-        <h4>Counter</h4>
-        <hr/>
+        <h4>Counter 1</h4>
         <div>
         <button className='mui-btn mui-btn--small mui-btn--primary'
-         onClick={increment}>+</button>
+         onClick={counter1.increment}>+</button>
         <button className='mui-btn mui-btn--small mui-btn--primary'
-         onClick={decrement}>-</button>
+         onClick={counter1.decrement}>-</button>
         <button className='mui-btn mui-btn--small mui-btn--danger'
-         onClick={reset}>reset</button>        
+         onClick={counter1.reset}>reset</button>        
         </div>
-        <h2>{counter}</h2>
+        <h1>{counter1.counter}</h1>
+
+        <h4>Counter 2</h4>
+        <div>
+        <button className='mui-btn mui-btn--small mui-btn--primary'
+         onClick={counter2.increment}>+</button>
+        <button className='mui-btn mui-btn--small mui-btn--primary'
+         onClick={counter2.decrement}>-</button>
+        <button className='mui-btn mui-btn--small mui-btn--danger'
+         onClick={counter2.reset}>reset</button>        
+        </div>
+        <h1>{counter2.counter}</h1>
     </>
   )
 }

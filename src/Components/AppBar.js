@@ -18,10 +18,10 @@ export const AppBar = () => {
                         <Link to="/basic">Basic</Link>
                     </li>
                     <li>
-                        <Link to="/tables">Tables</Link>
+                        <Link to="/events">Events</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/tables">Tables</Link>
                     </li>
                     <li>
                         <Link to="/services">Services</Link>          

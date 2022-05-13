@@ -18,20 +18,18 @@ time, mark, audio, video {
   vertical-align:baseline;
   background:transparent;
 }
-.home{
-   text-align: ;
-}
+
 .h1tile{
     position: fixed;
     left: 40%;
     top: 35%;
     z-index: 2;
     padding: 20px;
-    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 48px;
     color: rgb(19, 19, 19);
   
 }
-
 .image img{
     position: fixed;
     width: 100%;
@@ -41,64 +39,36 @@ time, mark, audio, video {
 }
 .father{
     margin-top: 20px;
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;    
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 5px;
     bottom: 'mui-btn mui-btn--primary';  
-}
 
+}
 h4{    
     color: #030303;   
 }
 input{
     border-radius: 3px;
+    border: 1px solid gray;
 }
 .CapInput{
     background-color: white;
     box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);  
-    width: 200px;   
-    border-radius: 5px;        
-    text-align: center;
-    gap: 5px;
-    outline: none;
-    
-}
-.fetch{
-    background-color: white;
-    box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
     width: 200px;
-    padding: 5px;
-    border-radius: 5px;   
+    height: 200px;
+    border-radius: 2px;        
     text-align: center;
-    gap: 5px;
-
+    gap: 10px;
+    outline: none;
+    padding: 10px;    
 }
-.fetch img{
+.CapInput img{
     width: 100%;
     height: 100px;
-    object-fit: cover;
-      
-  }
-.callHook{
-    background-color: white;
-    box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
-    width: 200px; 
-    border-radius: 5px;
-    padding: 5px;
-    text-align: center;
-    gap: 5px;
-    
-}
-.local{
-    background-color: white;
-    box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
-    width: 200px;     
-    border-radius: 5px;
-    padding: 5px;
-    text-align: center;
-    gap: 5px;
-    
-    
 }
 .darkfather{
     background-color: white;
@@ -108,7 +78,6 @@ input{
     border-radius: 5px;    
     text-align: center;
 }
-
 .dark{
     background-color: white;
     box-shadow: 0px 7px 20px -11px rgba(0,0,0,0.75);
@@ -117,3 +86,64 @@ input{
     background-color: rgb(32, 32, 32);   
     text-align: center;
 }
+.form-modal{
+    text-align: center;
+    z-index: 999;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0px 9px 60px -11px rgba(0,0,0,0.85);  
+}
+.formsz{
+width: 100%;
+height: 100%;
+}
+.activemodal{
+    z-index: 990;
+    opacity: 1;
+    visibility: visible;
+    border-radius: 3px;
+}
+.btn-action{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btnbasic{
+    margin-top: 80px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.action{
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.btn-xdiv{    
+    display: flex;
+    justify-content: flex-end;
+}
+.btnx{
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    border: none;
+
+}
+

@@ -16,12 +16,40 @@
     
 }
 .ulTable li:hover {
-        color: orange;
-        cursor: pointer;
+    background-color: rgb(2, 131, 82);
+    color: aliceblue;
+    cursor: pointer;      
 
 }
-
 .szTable{
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
     background-color: rgb(63, 63, 63);
 }
+
+.list{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.divtablehtml{
+    height: 400px;
+}
+.tablehtml{
+background-color: white;
+overflow-y: scroll;
+height: 100%;
+}
+.tablehtml th, .tablehtml td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+.tablehtml th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white; 
+    text-align: center;
+  }
+
